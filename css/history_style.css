@@ -1,0 +1,143 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/Clouds-Background.png);
+
+
+}
+#wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.social_links {
+	width: 160px;
+	float: left;
+	margin-left: 40px;
+}
+#footer {
+	clear: both;
+	background-image: url(../images/Low-Banner-yellow.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#intro {
+
+}
+#footer p {
+	text-align: right;
+	color: #841c26;
+	font-size: 11px;
+}
+#intro p {
+	font-family: "Myriad Pro";
+	line-height: 17px;
+	color: #841c26;
+	font-size: 13px;
+
+}
+#mainnav ul li {
+	font-family: "Century Gothic";
+	padding-top: 2px;
+	padding-bottom: 5px;
+	display: block;
+	font-size: 20px;
+	width: 109px;
+	text-align: center;
+	float: left;
+	margin-top: 50px;
+	/* [disabled]border-right: 1px solid #841c26; */
+
+}
+#mainnav ul {
+	list-style-type: none;
+	padding: 0px;
+}
+p {
+	color: #841c26;
+	font-family: "Century Gothic";
+}
+#trick {
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	text-align: right;
+	/* [disabled]clear: left; */
+}
+#logo {
+	width: 120px;
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#trick p {
+	font-size: 10px;
+}
+#mainnav a:link ,#mainnav a:visited{
+	text-decoration: none;
+	color: #841c26;
+	text-align: right;
+	border-right: 1px solid #841c26;
+	padding-right: 10px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus {
+	color: #f7941e;
+	/* [disabled]border-right: 1px solid #f7941e; */
+	padding-right: 10px;
+}
+
+.floatleft {
+}
+.floatright {
+}
+.smooth {
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+.smooth:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+#intro h2 {
+	color: #f7941e;
+	font-family: "Myriad Pro";
+}
+#contact1 figcaption {
+	margin-top: 0px;
+	padding-top: 0px;
+	/* [disabled]line-height: -20px; */
+	margin-left: 7px;
+}
+#contact1 {
+	width: 275px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 70px;
+	border-right: 1px solid #666666;
+	margin-bottom: 50px;
+}
+
+#contact2 {
+	width: 200px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 70px;
+	margin-bottom: 50px;
+}
+#contact2 figcaption {
+}
+#contact1 figcaption p{
+	color: #000000;
+}
+#contact2 figcaption p {
+	color: #000000;
+}

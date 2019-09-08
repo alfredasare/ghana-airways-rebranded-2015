@@ -1,0 +1,162 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/Clouds-Background.png);
+
+
+}
+#wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.social_links {
+	width: 160px;
+	float: left;
+	margin-left: 40px;
+}
+#footer {
+	clear: both;
+	background-image: url(../images/Low-Banner-Red.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#intro {
+
+}
+#footer p {
+	text-align: right;
+	color: #f7941e;
+	font-size: 11px;
+}
+#intro p {
+	font-family: "Myriad Pro";
+	line-height: 17px;
+	color: #841c26;
+	font-size: 13px;
+
+}
+#mainnav ul li {
+	font-family: "Century Gothic";
+	padding-top: 2px;
+	padding-bottom: 5px;
+	display: block;
+	font-size: 20px;
+	width: 109px;
+	text-align: center;
+	float: left;
+	margin-top: 50px;
+	/* [disabled]border-right: 1px solid #841c26; */
+
+}
+#mainnav ul {
+	list-style-type: none;
+	padding: 0px;
+}
+p {
+	color: #841c26;
+	font-family: "Century Gothic";
+}
+#trick {
+	width: 100px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	text-align: right;
+	/* [disabled]clear: left; */
+}
+#logo {
+	width: 120px;
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#trick p {
+	font-size: 10px;
+}
+#mainnav a:link ,#mainnav a:visited{
+	text-decoration: none;
+	color: #841c26;
+	text-align: right;
+	border-right: 1px solid #841c26;
+	padding-right: 10px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus {
+	color: #f7941e;
+	/* [disabled]border-right: 1px solid #f7941e; */
+	padding-right: 10px;
+}
+
+.floatleft {
+}
+.floatright {
+}
+.smooth {
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+.smooth:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	width: 60px;
+}
+#form1 {
+	background-repeat: no-repeat;
+	background-image: url(../images/Booking-Background.png);
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+#form1 #buttons {
+	clear: both;
+	margin-left: 250px;
+}
+
+.details {
+	width: 150px;
+	float: left;
+	/* [disabled]margin-bottom: 80px; */
+	margin-left: 40px;
+	margin-top: 25px;
+	padding-right: 32px;
+}
+.details label {
+	color: #FFFFFF;
+	font-family: "Century Gothic";
+}
+
+.details .t_fields {
+	margin-bottom: 45px;
+}
+.details .place {
+	margin-bottom: 45px;
+}
+.details .picker {
+	margin-bottom: 45px;
+}
+#buttons #submit, #buttons #reset {
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.details .stage p {
+	color: #FFFFFF;
+}
+fieldset {
+	color: #FFFFFF;
+	border-style: none;
+	font-family: "Century Gothic";
+}
+#form1 fieldset p{
+	color: #FFFFFF;
+	font-family: "Century Gothic";
+}

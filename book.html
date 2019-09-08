@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ghana Airways_Book</title>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.datepicker.custom.min.js" type="text/javascript"></script>
+<link href="css/book_style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="logo">
+  <figure><a href="index.html"><img src="images/logo-full.png" width="120" height="58"  alt=""/></a></figure>
+</div>
+<div id="trick">
+<p>powered by trickicity</p>
+</div>
+  <nav id="mainnav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="book.html">BOOK</a></li>
+      <li><a href="history.html">HISTORY</a></li>
+      <li><a href="reach_us.html">REACH US</a></li>
+    </ul>
+  </nav>
+  <img src="images/Book-Banner.png" width="700" height="291"  alt=""/>
+  <p>Complete your booking details to join in our comfortable and relaxed flights</p>
+<article id="intro">
+
+    <form method="post" enctype="multipart/form-data" name="form1" id="form1">
+    
+     	
+       <fieldset><legend>What type of flight will it be?
+        <p> <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+         Return</label>
+       <br>
+       <label>
+         <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+         One way</label>
+       <br></p>
+       </legend></fieldset><label>
+     
+<div class="details">
+  <div class="t_fields">
+     <label for="textfield1">Name:</label>
+     <input type="text" id="textfield1">
+     </div>
+     
+     <div class="t_fields">
+     <label for="textfield2">Travel Class:</label>
+     <input type="text" id="textfield2" list="class">
+     <datalist name="class" id="class">
+     <option value="Economy Class"></option>
+     <option value="Business Class"></option>
+     </datalist>
+     </div>
+     
+   </div>  
+     
+    
+    
+     
+     <div class="details">
+     <div class="place">
+     <label for="textfield3">From:</label>
+     <input type="text" id="textfield3" list="dep">
+     <datalist name="dep" id="dep">
+     <option value="Accra - Kotoka Airport (ACC), Ghana"></option>
+     <option value="Kumasi International Airport,Kumasi"></option>
+     </datalist>
+     </div>
+     
+     <div class="place">
+     <label for="textfield4">To:</label>
+     <input type="text" id="textfield4">
+     </div>
+     
+     </div>
+     
+      
+    <div class="details"> 
+	<div class="picker">
+    	<label for="date_picker1">Departure:</label>
+  		<input type="text" id="Datepicker1">
+  
+	</div>
+
+      <div class="picker">
+        <label for="date_picker2">Return:</label>
+        <input type="text" id="Datepicker2">
+      </div>
+      
+      </div>
+      
+      <div class="details">
+     <div class="stage">
+     <label for="textfield3">Adult(15+ years)</label>
+     <input type="text" id="textfield3" list="stage">
+     <datalist name="stage" id="stage">
+     <option value="1"></option>
+     <option value="2"></option>
+     <option value="3"></option>
+     <option value="4"></option>
+     <option value="5"></option>
+     <option value="6"></option>
+     <option value="7"></option>
+     <option value="8"></option>
+     <option value="9"></option>
+     </datalist>
+     
+     <div class="stage">
+     
+       <p>
+         <label>
+           <input type="checkbox" name="CheckboxGroup" value="checkbox" id="CheckboxGroup_0">
+           I am travelling with child(ren) (<15 years)</label>
+         <br>
+       </p>
+     </div>
+     </div>
+     
+     </div>
+      
+      
+      <div id="buttons">
+      
+      <input type="submit" name="submit" id="submit" value="Submit">
+  <input type="reset" name="reset" id="reset" value="Reset">
+      
+      </div>
+      
+      
+      
+      
+    </form>
+    
+</article>
+  
+  <footer id="footer"><p>&copy;2015 All Rights Reserved.</p></footer>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Datepicker1" ).datepicker(); 
+});
+$(function() {
+	$( "#Datepicker2" ).datepicker(); 
+});
+</script>
+</body>
+</html>
